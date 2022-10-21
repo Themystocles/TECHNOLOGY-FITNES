@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { InitialPageComponent } from './initial-page/initial-page.component';
+import { MenuDeTreinoComponent } from './menu-de-treino/menu-de-treino.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { InitialPageComponent } from './initial-page/initial-page.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    InitialPageComponent
+    InitialPageComponent,
+    MenuDeTreinoComponent
   ],
   imports: [
     BrowserModule,
