@@ -12,13 +12,15 @@ import { InitialPageComponent } from './initial-page/initial-page.component';
 import { MenuDeTreinoComponent } from './menu-de-treino/menu-de-treino.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     InitialPageComponent,
-    MenuDeTreinoComponent
+    MenuDeTreinoComponent,
+
   ],
   imports: [
     BrowserModule,
