@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { InitialPageComponent } from './initial-page/initial-page.component';
 import { MenuDeTreinoComponent } from './menu-de-treino/menu-de-treino.component';
+import { ImcComponent } from './imc/imc.component';
 
 
 
@@ -20,6 +21,7 @@ import { MenuDeTreinoComponent } from './menu-de-treino/menu-de-treino.component
     FooterComponent,
     InitialPageComponent,
     MenuDeTreinoComponent,
+    ImcComponent,
 
   ],
   imports: [
