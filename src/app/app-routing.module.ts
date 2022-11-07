@@ -5,9 +5,11 @@ import { InitialPageComponent } from './initial-page/initial-page.component';
 import { MenuDeTreinoComponent } from './menu-de-treino/menu-de-treino.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/Home', pathMatch: 'full' },
   { path: 'imc', component: ImcComponent },
   { path: 'MenuTreino', component: MenuDeTreinoComponent, },
-  { path: 'MenuTreino', component: InitialPageComponent },
+  { path: 'Home', component: InitialPageComponent, },
+
 ];
 
 @NgModule({
